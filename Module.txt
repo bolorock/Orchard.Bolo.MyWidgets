@@ -1,0 +1,10 @@
+﻿Name: Bolo.MyWidgets
+AntiForgery: enabled
+Author: Bolo
+Website: http://orchardproject.net
+Version: 1.0
+OrchardVersion: 1.6
+Description: Description for the module
+Features:
+    Bolo.MyWidgets:
+        Description: Description for feature Bolo.MyWidgets.

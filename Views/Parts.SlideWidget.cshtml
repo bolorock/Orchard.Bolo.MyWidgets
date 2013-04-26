@@ -1,0 +1,42 @@
+﻿@{
+    Style.Require("Bolo.MyWidget.Slide");
+    Script.Require("Bolo.MyWidget.Slide");
+}
+<div id="gallery">
+
+    <div id="slides">
+
+        <div class="slide">
+            <img src= "@Url.Content("~/Modules/Bolo.MyWidgets/Styles/Images/sample_slides/macbook.jpg")" width="920" height="400" alt="side" />
+        </div>
+        <div class="slide">
+            <img src= "@Url.Content("~/Modules/Bolo.MyWidgets/Styles/Images/sample_slides/iphone.jpg")" width="920" height="400" alt="side" />
+        </div>
+        <div class="slide">
+            <img src= "@Url.Content("~/Modules/Bolo.MyWidgets/Styles/Images/sample_slides/imac.jpg")" width="920" height="400" alt="side" />
+        </div>
+        <div class="slide">
+            <a href="http://tutorialzine.com/2009/10/beautiful-apple-gallery-slideshow/" target="_blank">
+                <img src= "@Url.Content("~/Modules/Bolo.MyWidgets/Styles/Images/sample_slides/info.jpg")" width="920" height="400" alt="side" /></a>
+        </div>
+
+    </div>
+
+    <div id="slideMenu">
+
+        <ul>
+            <li class="fbar">&nbsp;</li>
+            <li class="menuItem"><a href="">
+                <img src="@Url.Content("~/Modules/Bolo.MyWidgets/Styles/Images/sample_slides/thumb_macbook.png")" alt="thumbnail" /></a></li>
+            <li class="menuItem"><a href="">
+                <img src="@Url.Content("~/Modules/Bolo.MyWidgets/Styles/Images/sample_slides/thumb_iphone.png")" alt="thumbnail" /></a></li>
+            <li class="menuItem"><a href="">
+                <img src="@Url.Content("~/Modules/Bolo.MyWidgets/Styles/Images/sample_slides/thumb_imac.png")" alt="thumbnail" /></a></li>
+            <li class="menuItem"><a href="">
+                <img src="@Url.Content("~/Modules/Bolo.MyWidgets/Styles/Images/sample_slides/thumb_about.png")" alt="thumbnail" /></a></li>
+        </ul>
+
+
+    </div>
+
+</div>
